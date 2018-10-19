@@ -4,14 +4,50 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-nav{
+ul{
+	display: block;
+	height: 40px;
+	width: 100%;
+}
+ul li{
+	display: block;
+	float: left;
+}
+li a{
+	color: white;
+	font-size: 14px;
+	padding: 8px;
+	display: block;
+	border-top: 5px solid transparent;
+	
+}
+.activo,li a:hover{
+	font-weight: bold;
+    border-top:5px solid #54d154; /*borde de arriba*/
+    color: white;
+    text-decoration: none;
+}
+.buscador{
+	background: rgba(217,216,216,0.75);
+	border-radius: 15px;
+	height: 27px;
+	padding: 7px 14px;
+	font-size: 16px;
+	color: #111111;
+
+
+}
+
+/*nav{
 	height: 13px;
 	width: 29px;
 	color:#FFFFFF;
 	background-position: center;
 	font-family: arial;
+	font-size: 14px;
 	line-height: 1.4em;
 	margin: 0;
+
 }
 h1{
 	background-position: center;
@@ -28,4 +64,4 @@ h1{
     float: left;
     margin-left: 15px;
     margin: 10px;
-}
+}/*
