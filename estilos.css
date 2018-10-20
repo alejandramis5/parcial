@@ -1,3 +1,6 @@
+body{
+font-family: 'Montserrat', sans-serif;
+}
 header{
 	background:url("img/bigheader.jpg");
 	height: 659px;
@@ -5,23 +8,22 @@ header{
 	background-size: cover;
 }
 ul{
-	display: block;
 	height: 40px;
 	width: 100%;
+	display: block;
 }
 ul li{
-	display: block;
+	display:inline-block;
 	float: left;
 }
 li a{
 	color: white;
-	font-size: 14px;
-	padding: 8px;
+	font-size: 15px;
+	padding: 8px 6px;
 	display: block;
 	border-top: 5px solid transparent;
-	
 }
-.activo,li a:hover{
+.activo, li a:hover{
 	font-weight: bold;
     border-top:5px solid #54d154; /*borde de arriba*/
     color: white;
@@ -29,15 +31,51 @@ li a{
 }
 .buscador{
 	background: rgba(217,216,216,0.75);
+	border: none;
 	border-radius: 15px;
 	height: 27px;
 	padding: 7px 14px;
 	font-size: 16px;
 	color: #111111;
+	width: 100%;
+	margin-top: 5px;
+	}
+	#center_header{
+		height: 596px;
+	}
+	#centradito{
+		display: flex;
+		justify-content: center; /*orisontamelte*/
+		align-items: center;
+		flex-direction:column; /*poner todo en filas*/
 
-
-}
-
+	}
+	#centradito h1{
+		color: #FFFFFF;
+		font-size: 55px;
+		font-weight: bold;
+	}
+	#centradito a{
+		background: #54d154;
+		color: #fff;
+		text-align: center;
+		display: block;
+		width: 205px;
+		height: 49px;
+		border-radius: 30px;
+		padding: 7px 0;
+		font-weight: normal;
+		font-size: 21px;
+		transition: 0.5s ease all;
+	}
+	#centradito a:hover{
+		text-decoration: none;
+		background: #f34d04;
+		transform: scale(1.05);
+	}
+	#center_header2{
+		height: 596px;
+	}
 /*nav{
 	height: 13px;
 	width: 29px;
@@ -52,7 +90,7 @@ li a{
 h1{
 	background-position: center;
 	text-transform: capitalize;
-	 font-family: georgia;
+	 font-family: georsssgia;
 }
 #nav_header{
 	list-style: none;
