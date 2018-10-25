@@ -40,9 +40,6 @@ li a{
 	width: 100%;
 	margin-top: 5px;
 	}
-	#center_header{
-		height: 596px;
-	}
 	#centradito{
 		display: flex;
 		justify-content: center; /*orisontamelte*/
@@ -73,9 +70,58 @@ li a{
 		background: #f34d04;
 		transform: scale(1.05);
 	}
-	#center_header2{
-		height: 596px;
+	#center{
+		height: 565px;
 	}
+	#down{
+		display: flex;
+		justify-content: center; /*orisontamelte*/
+		align-items: center;
+		flex-direction:column; 
+
+}
+.distancia{
+padding-left: 5px;
+}
+	#down a{
+		background:rgba(217,216,216, 0.9);
+	    border: none;
+	    border-radius: 11px;
+	    width: 115px;
+	    height: 26px;
+	    color: #111111;
+	    text-align: center;
+	    padding: 3px 0px;
+	    text-decoration: none;
+	}
+
+	.centrar{
+		text-align: center;;
+		color: #c2bebe;
+		font-size: 12px;
+}
+
+ .linea {
+	width: 25px
+	height 3px;
+	border: 0;
+	background-color: #828181;
+}
+#wappers section{
+	height: 100%;
+	width: 66%;
+	float: left;
+	padding: 0 2%;
+}
+article {
+	float: left;
+	width: 30%;
+	overflow: hidden;
+	text-align: center;
+}
+#caption{
+	
+}
 /*nav{
 	height: 13px;
 	width: 29px;
