@@ -99,9 +99,10 @@ li a{
 
 }
 	.text-center{
-		font-size: 22px;
+		font-size: 15px;
 		color: #828181;
 		margin-top: 8px;
+		padding: 2px;
 
 	}
 	.parafo{
@@ -117,6 +118,7 @@ li a{
 		height: 3px;
 		background-color: #828181; 
 		float: center;
+		padding: 0px;
 	}
 	#blog{
 		display: flex;
@@ -151,11 +153,14 @@ li a{
 	    border-radius: 20px;
 	    width: 132px;
 	    height: 22px;
-	    color: #111111;
+	    color: white;
 	    text-align: center;
 	    padding: 2px 0px;
 	    text-decoration: none;
 	    font-size: 12px;
+	    font-weight: bold;
+	    margin-top: 50px;
+	    margin-left: 100px;
 	}
 	#blog a:hover{
 		text-decoration: none;
