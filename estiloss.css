@@ -252,11 +252,15 @@ li a{
 	justify-content: center;
 }
 
-.parrafo1{
+.slick-prev:before,.slick-next:before{
+	color: #444;
+}
+
+/*.parrafo2{
 	text-align: center;
 	font-size: 16px;
 	margin: 50px 0px;
-	max-width: 225px;
+	
 }
 .hola{
 	margin: 20px auto;
@@ -277,4 +281,4 @@ li a{
 }
 .hola2{
 	color:#ccc;
-}
+}*/
