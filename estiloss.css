@@ -102,9 +102,12 @@ li a{
 }
 .encabezado p{
 	color: #b7b3b3;
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: 300;
 	text-align: center;
+	   margin-right: 8px;
+    margin-top: -11px;
+}
 }
 .article{margin-bottom: 73px;}
 .article .wrapper-img{
@@ -165,7 +168,7 @@ li a{
 	font-size: 16px;
 	font-weight: 300;
 	text-align: center;
-}
+	 }
 .centrado{
 	display: flex;
 	justify-content: center;
@@ -353,7 +356,9 @@ li a{
 	font-weight: bold;
 	margin-left: -13px
 }
-
+.scroll a{
+	background-color: #dddcdc;
+}
 .bg_verde2 a{
 	background: #54d154;
 }
@@ -388,7 +393,11 @@ li a{
 	margin-top: 8px;
 }
 .fondo2 p{
-	margin: 15px;
+
+}
+.titulo p{
+	font-weight: normal;
+	font-size: 25px;
 }
 .titulo {
     color:#a6a6a6;
@@ -405,6 +414,9 @@ width: 84px;
 	font-weight: 400;
 	text-align: center;
 	margin: 119px;
+}
+.titulo1 a{
+	height: 15px;
 }
 .fondo2 {
     color:#a6a6a6;
@@ -473,11 +485,58 @@ width: 84px;
 	display: block;
 	margin-top: 28px;
 }
-.negro3{
+.negro3 {
 	background: #111111;
 	color: #fff;
+}
+.text1{
 	text-align: center;
-	font-weight: bold;
-	font-size: 10px;
-	margin:5px;
+}
+.from{
+	background-color: #333333;
+}
+.nombre1{
+	width: 292px;
+	background-color: #444444;
+	border: none;
+	display: inline-block;
+}
+.email1{
+	width: 292px;
+	background-color: #444444;
+	border: none;
+	align-items: center;
+	margin-top: 5px;
+}
+.mensaje1{
+	height: 150px;
+	background-color: #444444;
+	border: none;
+	margin-top: 5px;
+}
+.enviar1{
+	background-color: #2b9b2b;
+	margin-top: -1px;
+	width: 290px;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 12PX;
+	font-weight: normal;
+}
+.posicion{
+	margin-top: 15px;
+}
+.posicion img{
+	    height: 59px;
+    width: 148px;
+    margin-top: 20px;
+}
+.final1{
+	text-align: center;
+    margin: 0px;
+    margin-left: 594px;
+}
+.cambiocolor h2{
+	color: #222222;
 }
