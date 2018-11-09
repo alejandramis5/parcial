@@ -467,13 +467,13 @@ width: 84px;
 	margin: 119px;
 }
 .bg_negro2{
-	background: #222222 transparent;
+	background: #222222 ;
 }
 .final{
 	display: block;
 	margin-top: 28px;
 }
-footer{
+.negro3{
 	background: #111111;
 	color: #fff;
 	text-align: center;
